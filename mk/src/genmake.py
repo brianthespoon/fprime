@@ -1,7 +1,10 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 import sys
 import os
 import parsers.mod_mk_parser
 import parsers.variable_list_parser
+from pprint import pprint as pretty
 
 # arguments:
 # 1 = name of file to generate
@@ -14,7 +17,6 @@ if not os.environ.has_key("BUILD_ROOT"):
 	sys.exit(-1)
 
 makefiledir = sys.argv[1]
-	
 print "Generating Makefiles in %s"%	makefiledir
 
 

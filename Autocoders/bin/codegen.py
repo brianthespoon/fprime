@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 #!/usr/bin/env python
 #===============================================================================
 # NAME: codegen.py
@@ -9,6 +11,8 @@
 
 import os
 import sys
+if '/Users/bweather/anaconda/lib/python2.7/site-packages' not in sys.path:
+    sys.path.insert(0,'/Users/bweather/anaconda/lib/python2.7/site-packages')
 import time
 import glob
 import logging
