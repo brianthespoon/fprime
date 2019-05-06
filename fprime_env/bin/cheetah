@@ -1,3 +1,0 @@
-#!/Users/bweather/Documents/work/jpl/projects/git/fprime/fprime_env/bin/python
-from Cheetah.CheetahWrapper import _cheetah
-_cheetah()

@@ -1,0 +1,6 @@
+#!/Users/bweather/Documents/work/jpl/projects/git/fprime/.pyenv/bin/python
+
+from Cheetah import DirectiveAnalyzer
+
+if __name__ == '__main__':
+    DirectiveAnalyzer.main()
